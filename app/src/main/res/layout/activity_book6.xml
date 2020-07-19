@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".book6">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="543dp"
+        android:layout_height="432dp"
+        android:layout_marginStart="4dp"
+        android:src="@drawable/book6"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="-60dp" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="209dp"
+        android:layout_height="82dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="20dp"
+        android:text=" بورت دوجلاس أستراليا"
+        android:textColor="#000"
+        android:textSize="29dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView15"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4"
+        app:layout_constraintVertical_bias="0.095" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="366dp"
+        android:layout_height="225dp"
+        android:text="هى وجهة مثالية لمحبى الطبيعة المغامرة كانت ذات أصول متواضعة فى الماضى فعرفت كقرية صيد ومن ثم تم تحويلها إلى منتجع سياحى أستوائى ستتمتع فيها برحلات السفارى البرية ورحلات الصيد والغابات المطيرة ورؤية الحاجز المرجانى العظيم وأشجار المانجو والنجيل  وتمتع على شواطئها بالسباحة والغوص والغطس وأفضل وقت لزيارتها  فى فصل الشتاء فى الفترة من مايو حتى سبتمبر عندما تكون درجات الحرارة مناسبة"
+        android:textColor="#000"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/buttonbook6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.488"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4"
+        app:layout_constraintVertical_bias="0.759" />
+
+    <Button
+        android:id="@+id/buttonbook6"
+        android:layout_width="420dp"
+        android:layout_height="69dp"
+        android:background="#70AAC3"
+        android:text="حجز"
+        android:textColor="#fff"
+        android:textSize="@dimen/_40sdp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.555"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4"
+        app:layout_constraintVertical_bias="1.0"
+        tools:layout_editor_absoluteY="774dp" />
+
+    <RatingBar
+        android:id="@+id/ratingBar2"
+        style="?android:attr/ratingBarStyleIndicator"
+        android:layout_width="140dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="40dp"
+
+        android:layout_marginEnd="16dp"
+        android:background="#F3E999"
+        app:layout_constraintBottom_toTopOf="@+id/textView15"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/textView14"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4"
+        app:layout_constraintVertical_bias="0.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".book3">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="363dp"
+        android:layout_height="334dp"
+        android:src="@drawable/book3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.458"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="-56dp" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="20dp"
+        android:text="جزر مامانوكا"
+        android:textColor="#000"
+        android:textSize="50dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView15"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="366dp"
+        android:layout_height="225dp"
+        android:layout_marginTop="112dp"
+        android:text="جزر مامانوكا من جزر فيجى هى أرخبيل بركانى تقع إلى الغرب من نادى وإلى الجنوب من جزر ياسوا وتعد مجموعة جزر مامانوكا ذات شعبية سياحية كبيرة و تتكون من حوالى 20 جزيرة ولكن سبعة منها تغمر بمياة المحيط عند أرتفاع المد   ما تتميز بة الجزر الشواطئ الرملية البيضاء و النباتات النابضة بالحياة مما يجعلها مكان مثالى للباحثين عن عطلة مميزة بعيدآ عن ضغوطات الحياة اليومية كما أن جوها حار رطب مما يجعلها مكان مثالى للتمتع بأشعة الشمس المشرقة"
+        android:textColor="#000"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/buttonbook3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.488"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/buttonbook3"
+        android:layout_width="420dp"
+        android:layout_height="69dp"
+        android:layout_marginBottom="16dp"
+        android:background="#70AAC3"
+        android:text="حجز"
+        android:textColor="#fff"
+        android:textSize="@dimen/_40sdp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.555"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4"
+        app:layout_constraintVertical_bias="1.0"
+        tools:layout_editor_absoluteX="-14dp" />
+
+    <RatingBar
+        android:id="@+id/ratingBar2"
+        style="?android:attr/ratingBarStyleIndicator"
+        android:layout_width="140dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="40dp"
+
+        android:layout_marginEnd="16dp"
+        android:background="#F3E999"
+        app:layout_constraintBottom_toTopOf="@+id/textView15"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/textView14"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4"
+        app:layout_constraintVertical_bias="0.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".book2">
+
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="354dp"
+        android:layout_height="444dp"
+        android:src="@drawable/book2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="-98dp" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="256dp"
+        android:layout_height="67dp"
+        android:text="جزيرة إيتوتاكي"
+        android:textColor="#000"
+        android:textSize="45dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView15"
+        app:layout_constraintEnd_toStartOf="@+id/ratingBar2"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="367dp"
+        android:layout_height="175dp"
+        android:layout_marginTop="104dp"
+        android:layout_marginBottom="52dp"
+        android:text="جزيرة فى جزر كوك تبلغ مساحتها 18,05كليو متر مربع وترتفع حوالى 123 متر تربطها علاقة وثيقة مع نيوزيليندا أنعم الله عليها بالعديد من السحر و الجمال الذى ستجدة واضحآ فى بحيرتها المائية المضيئة  و قممها الخصبة و شواطئها الساحرة بهدوئها و أشجار النخيل فضلا عن طبيعية سكانها الودين تجد بها العديد من الريضيات المائية الممتعة منها السباحة و الغطس و التجديف و صيد الأسماك و ستعرفك الجزيرة على طبيعة حياة القرى الهادئة فتمتع فيها بجو من الأسترخاء و السحر الذى سيعطى لك أجازة ساحرة نقية  لا مثيل لها تنسيك جو المدينة الصاخب و تلوثة"
+        android:textColor="#000"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/button2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.488"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/buttonbook2"
+        android:layout_width="420dp"
+        android:layout_height="69dp"
+        android:layout_marginBottom="4dp"
+        android:background="#70AAC3"
+        android:text="حجز"
+        android:textColor="#fff"
+        android:textSize="@dimen/_40sdp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <RatingBar
+        android:id="@+id/ratingBar2"
+        style="?android:attr/ratingBarStyleIndicator"
+        android:layout_width="140dp"
+        android:layout_height="39dp"
+        android:background="#F3E999"
+        app:layout_constraintBottom_toTopOf="@+id/textView15"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4"
+        app:layout_constraintVertical_bias="0.246" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

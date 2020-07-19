@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity3">
+
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/gifImageView"
+        android:layout_width="574dp"
+        android:layout_height="763dp"
+        android:src="@drawable/bbgb"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.125" />
+
+    <ImageView
+        android:id="@+id/sham2"
+        android:layout_width="82dp"
+        android:layout_height="62dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/ic_baseline_play_arrow_24" />
+
+    <ImageView
+        android:id="@+id/imageVieww2"
+        android:layout_width="116dp"
+        android:layout_height="72dp"
+        android:layout_marginStart="144dp"
+        android:layout_marginBottom="12dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/imageView"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/ic_baseline_more_horiz_24" />
+
+    <ImageView
+        android:id="@+id/imageView00"
+        android:layout_width="18dp"
+        android:layout_height="23dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageVieww2"
+        app:layout_constraintEnd_toEndOf="@+id/imageVieww2"
+        app:layout_constraintStart_toStartOf="@+id/imageVieww2"
+        app:layout_constraintTop_toTopOf="@+id/imageVieww2"
+        app:layout_constraintVertical_bias="0.489"
+        app:srcCompat="@drawable/ic_baseline_radio_button_checked_24" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="388dp"
+        android:layout_height="153dp"
+        android:layout_marginTop="104dp"
+        android:layout_marginEnd="24dp"
+        android:fontFamily="sans-serif"
+        android:text="  ✓ سفراتي يبحث لكم عن أفضل العروض في هذا التطبيق .."
+        android:textColor="#FFFFFF"
+        android:textSize="35dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageVieww2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.13" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="402dp"
+        android:layout_height="106dp"
+        android:layout_marginBottom="108dp"
+        android:fontFamily="sans-serif"
+        android:text="✓ حجز رحلات رخيصة على خطوط الطيران المفضلة لديك"
+        android:textColor="#fff"
+        android:textSize="35dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageVieww2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.224" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

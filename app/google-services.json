@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "451766108381",
+    "firebase_url": "https://alotaibi-app.firebaseio.com",
+    "project_id": "alotaibi-app",
+    "storage_bucket": "alotaibi-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:451766108381:android:3207487e714369628cdb34",
+        "android_client_info": {
+          "package_name": "com.example.muneraapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "451766108381-5bcq7pr2l1g7j9m32pguffrn9rudrudc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5hjkqV8ZeRRlOz2U_qvK8b484LP9w9Mk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "451766108381-5bcq7pr2l1g7j9m32pguffrn9rudrudc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

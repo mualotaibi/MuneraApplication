@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".book1">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="951dp"
+        android:layout_height="257dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/book1" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="24dp"
+        android:text="جزر المالديف"
+        android:textColor="#000"
+        android:textSize="50dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView15"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="375dp"
+        android:layout_height="176dp"
+        android:layout_marginTop="112dp"
+        android:text="احد اروع اماكن سياحية استوائية على الاطلاق. فهى جزر تقع فى قارة أسيا فى المحيط الهندى و هى دولة مسلمة حيث أن جميع سكانها مسلمون و يمر عليها خط الأستواء جنوبا وكان يسميها العرب قديمآ ذيبة المهل أو محلديب وقد تم تحريف الأسم لينطق مالديف يوجد فيها 26 من الجزر المرجانية الطبيعية الساحرة التى سيبهرك منظرها الأخذ وسط المياة الزرقاء المضيئة و الشمس المشرقة ينتظرك فى هذة الجزر المرجانية النائية العديد من السحر والجمال حيث المنتجعات الفاخرة و شواطئ الرمال البيضاء و مياة الزبرجد و العديد من الريضيات المائية الرائعة مثل الغطس و الغوص مع أسماك القرش  وسط جمال ألوان المرجان وركوب الأمواج و السباحة مع الحيتان و صيد الأسماك كل هذا يضمن أن تكون عطلتك الاستوائية  حاصلة على أعلى معايير الكمال"
+        android:textColor="#000"
+        app:layout_constraintBottom_toTopOf="@+id/button2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.355"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4"
+        app:layout_constraintVertical_bias="0.763" />
+
+    <Button
+        android:id="@+id/buttonbook2"
+        android:layout_width="420dp"
+        android:layout_height="69dp"
+        android:background="#70AAC3"
+        android:text="حجز"
+        android:textColor="#fff"
+        android:textSize="@dimen/_40sdp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.555"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <RatingBar
+        android:id="@+id/ratingBar2"
+        style="?android:attr/ratingBarStyleIndicator"
+        android:layout_width="140dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="40dp"
+
+        android:layout_marginEnd="16dp"
+        android:background="#F3E999"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/textView14"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Munera Application</string>
+
+    <string-array name="واحد">
+        <item>اثنان</item>
+        <item>ثلالثة</item>
+        <item>أربعة</item>
+        <item>خمسة</item>
+        <item>ستة</item>
+        <item>سبعه</item>
+        <item>ثمانية</item>
+        <item>تسعة</item>
+    </string-array>
+
+    <string-array name="اثنان">
+        <item>اثنان</item>
+        <item>ثلالثة</item>
+        <item>أربعة</item>
+        <item>خمسة</item>
+        <item>ستة</item>
+        <item>سبعه</item>
+        <item>ثمانية</item>
+        <item>تسعة</item>
+    </string-array>
+
+
+</resources>
